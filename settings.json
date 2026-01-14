@@ -1,7 +1,27 @@
 {
   // Opinionated settings
-  "icon_theme": "Colored Zed Icons Theme Dark",
   "profiles": {
+    "Zed Minimal Setup - Preview": {
+      "icon_theme": "Colored Zed Icons Theme Dark",
+      "theme": "Catppuccin Mocha - No Italics",
+      "ui_font_family": "JetBrainsMono Nerd Font",
+      "theme_overrides": {
+        "Catppuccin Mocha - No Italics": {
+          "border.variant": "#1e1e2e",
+          "border": "#1e1e2e",
+          "title_bar.background": "#1e1e2e",
+          "panel.background": "#1e1e2e",
+          "panel.focused_border": "#585b70",
+          "tab.active_background": "#1e1e2e",
+          "tab.inactive_background": "#313244",
+          "tab_bar.background": "#1e1e2e"
+        }
+      },
+      // Font Size
+      "agent_buffer_font_size": 18.0,
+      "buffer_font_size": 18.0,
+      "ui_font_size": 18.0
+    },
     "Zed Minimal Setup": {
       "icon_theme": "Colored Zed Icons Theme Dark",
       "theme": "Catppuccin Mocha - No Italics",
